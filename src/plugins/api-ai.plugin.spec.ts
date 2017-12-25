@@ -11,6 +11,7 @@ describe('ApiAiBotPlugin', () => {
         let plugin: ApiAiBotPlugin;
         before(function () {
             config();
+            console.log(process.env);
             plugin = new ApiAiBotPlugin(
                 'en',
                 ['bot'],
